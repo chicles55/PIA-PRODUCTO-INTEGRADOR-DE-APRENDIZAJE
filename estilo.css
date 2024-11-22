@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    background: #0078d7;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #0078d7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.imagen-derecha {
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
+    width: 100px; 
+    height: auto; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.imagen-izquierda {
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    width: 100px; 
+    height: auto; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tabla {
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    width: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #0078d7;
+}
+
+.tabla td {
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    text-align: center; 
+    background-color: #f9f9f9;
+}
+
+.tabla tr:nth-child(even) td {
+    background-color: #e6f7ff;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #0078d7; 
+    color: #fff; 
+    padding: 10px 20px;
+    font-size: 1rem; 
+    font-weight: bold; 
+    text-decoration: none; 
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.boton:hover {
+    background-color: #005a9e;
+    transform: scale(1.05); 
+}
